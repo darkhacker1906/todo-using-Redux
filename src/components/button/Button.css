@@ -10,6 +10,7 @@ button {
     transition: border-color 0.25s;
     color: #0d0d0d;
     background-color:rgb(162, 164, 164);
+    border: none;
   }
   button:hover {
     border-color: #0e0e0e;

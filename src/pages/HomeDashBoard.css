@@ -4,8 +4,10 @@
 }
 .todo_heading{
     text-align: center;
+    font-size: 25px;
+    margin-top:50px;
 }
-.form_section{
+/* .form_section{
     display: flex;
 }
-    
+     */
