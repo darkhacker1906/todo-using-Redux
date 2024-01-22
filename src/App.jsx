@@ -1,9 +1,10 @@
 import React from 'react'
+import HomeDashBoard from './pages/HomeDashBoard'
 
 function App() {
   return (
     <div>
-      <h1>hello</h1>
+     <HomeDashBoard/>
     </div>
   )
 }

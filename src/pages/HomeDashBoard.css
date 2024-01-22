@@ -1,0 +1,11 @@
+.main_div{
+    width:60%;
+    margin: auto;
+}
+.todo_heading{
+    text-align: center;
+}
+.form_section{
+    display: flex;
+}
+    
