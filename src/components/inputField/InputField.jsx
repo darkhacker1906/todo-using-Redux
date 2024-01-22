@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-function InputField() {
-  const [todoInput, setTodoInput] = useState("");
+function InputField({value,onChange}) {
+ 
   return (
     <div>
       <input
@@ -9,8 +9,8 @@ function InputField() {
         id="username"
         type="text"
         placeholder="Enter your todo"
-        value={todoInput}
-        onChange={(e)=>setTodoInput(e.target.value)}
+        value={value}
+        onChange={onChange}
       />
     </div>
   );

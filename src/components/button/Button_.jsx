@@ -6,7 +6,7 @@ function Button({ title,handleClick }) {
   return (
     <div>
       <button
-        className="btn btn-blue bg-green-200 hover:bg-green-400"
+        className="btn btn-blue bg-blue-400 hover:bg-blue-500 mb-3"
         type="submit"
         onClick={handleClick}
       >
