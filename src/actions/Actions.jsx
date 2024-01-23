@@ -7,3 +7,15 @@ export const addTodo=(data)=>{
         }
     }
 }
+export const deleteTodo = (todoId) => ({
+    type: "DELETE_TODO",
+    payload: {
+      todoId: todoId,
+    },
+  });
+  
+export const editTodo=()=>{
+    return {
+        type:"EDIT_TODO"
+    }
+}
