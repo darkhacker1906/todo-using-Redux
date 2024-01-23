@@ -14,8 +14,12 @@ export const deleteTodo = (todoId) => ({
     },
   });
   
-export const editTodo=()=>{
+export const editTodo=(todoId,newData)=>{
     return {
-        type:"EDIT_TODO"
+        type:"EDIT_TODO",
+        payload:{
+            todoId,
+            newData
+        }
     }
 }
